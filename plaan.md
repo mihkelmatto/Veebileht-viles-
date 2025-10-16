@@ -1,5 +1,7 @@
 TODO:
 
+Visuaalne plaan
+Tööjaotus, ajaline jaotus
 
 
 
