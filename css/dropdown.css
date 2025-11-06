@@ -1,0 +1,10 @@
+.dropdown{
+    display: block;
+}
+.dropdown-content{
+    visibility: hidden;
+    position: absolute;   
+}
+.dropdown:hover .dropdown-content{
+    visibility: visible;
+}

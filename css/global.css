@@ -8,3 +8,9 @@ body{
 body a:any-link{
     color:hsl(0, 0%, 100%);
 }
+header, header *{
+    background-color: hsl(0, 0%, 20%);
+}
+footer, footer *{
+    background-color: hsl(0, 0%, 20%);
+}
