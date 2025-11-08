@@ -3,7 +3,7 @@
 }
 .dropdown-content{
     visibility: hidden;
-    position: absolute;   
+    position: absolute;  
 }
 .dropdown:hover .dropdown-content{
     visibility: visible;
