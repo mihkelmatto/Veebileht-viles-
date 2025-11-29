@@ -10,5 +10,5 @@
     z-index: 1;
 }
 .dropdown a:hover{
-    color: hsl(234deg 100% 68.14%);
+    color: hsl(234, 100%, 74%);
 }
