@@ -3,12 +3,22 @@
 }
 .dropdown-content{
     visibility: hidden;
-    position: absolute;  
+    position: absolute;
+    z-index: 1;
 }
 .dropdown:hover .dropdown-content{
     visibility: visible;
-    z-index: 1;
+}
+.dropdown-content{
+    max-height: 0px;
+    transition: max-height 0.7s;
+    overflow: hidden;
+    border-radius: 0 0 10px 10px;
 }
 .dropdown a:hover{
     color: hsl(234, 100%, 74%);
+}
+.dropdown:hover .dropdown-content{
+    max-height: 300px;
+    transition-delay: 0s;
 }
