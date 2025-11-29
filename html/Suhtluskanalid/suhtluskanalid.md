@@ -2,7 +2,7 @@ Suhtluskanalid
 
 Zulip on suhtlusplatvorm, mida kasutatakse mõnes õppeaines, et lihtsustada ja kiirendada suhtlus õppejõudude ja õpilaste vahel. Oma olemuselt on sarnane rakendusele Discord, peamine erinevus seisneb selles, et UT kasutatavaid Zulipi kanaleid majutatakse lokaalselt Tartu Ülikooli serverites. 
 
- <img width="468" height="276" alt="image" src="https://github.com/user-attachments/assets/4fef54ec-ac24-468d-9c86-3b257451542c" />
+ zulip.png koht
 
 
 Rakenduse vasakul on näha erinevad kanalid, mille liige sa oled. Vajutades kanali ikoonile saad avada kindla kanali.
@@ -17,14 +17,15 @@ Zoomi ruumi leidmine võib olenevalt ainest erineda. Näiteks Kõrgem matemaatik
 Lisaks, olenevalt ainest, laetakse ka mõned (või kõik) aine loengud ülesse keskkonda Panopto, mis võimaldab loenguid hiljem järgi vaadata. 
 
 
-<img width="468" height="252" alt="image" src="https://github.com/user-attachments/assets/095fa304-b357-4281-9b94-d211e306392f" />
+zoom.png koht
 
 
 Microsoft Teams
 
 Mõningates õppeainetes kasutatakse Zoom’i asemel Microsoft Teams’i. Olemuselt on ta sarnane kuid sellel on üks suur eelis. Nimelt saab Teams’I sees luua foorumid ja kanalid, kus saavad õppejõud ja õpilased omavahel infot jagada. 
 
-<img width="468" height="273" alt="image" src="https://github.com/user-attachments/assets/222fc5a2-1af1-49b2-9e8f-6f89a1db7d3d" />
+teams.png koht
 
 
 Microsoft Teams’I kasutavad näiteks arvuti arhitektuur ja riistvara aine õppejõud. Vasakul on näha eri kanaleid, kus saab küsimusi küsida, “General” kanal on ühtlasi kuhu pannakse lingid videoloengutele. Microsoft Teams’i saab soovi korral kenasti sünkroonis hoida ka iCalenderi ja Google Calenderiga. Nii saab alati teavituse, kui tund on algamas.
+
