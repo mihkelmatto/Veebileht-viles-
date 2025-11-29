@@ -15,7 +15,7 @@
   <div id="header"></div>
   <script src="/components/header_script.js"></script>
 
-  <div class="main">
+  <div id="content">
     <div class="git">
       <h1>Git</h1>
       <span>Git on versioonihalduse tarkvara, mis võimaldab lähtekoodil hoida struktureeritud viisil, et mitme arendajaga saaks seda lahendada.</span>
@@ -36,6 +36,7 @@
     </div>
     <div class="quickstart">
       <h1>Kiirjuhend</h1>
+      <div>Siin on kõige tavalisemad käsud, mida giti kasutajal tuleks käsureal kasutada. See kindlasti pole lõplik ning neil kõigil on samuti lippe, mida saad määrata</div>
       <table>
         <tr>
           <th>Käsk</th>
@@ -60,8 +61,8 @@
           <td>git add file.txt</td>
           <td>Lisa staging-usse file.txt faili, et seda hiljem saaks kasutada pushimiseks</td>
         <tr></tr>
-          <td>git commit</td>
-          <td>Loob uue commiti, ning avab tekstiredaktorit commiti sõnumi kirjutamiseks</td>
+          <td>git commit -m "Commiti sõnum!"</td>
+          <td>Loob uue commiti koos -m antud jutumärkide vahelise sõnumiga</td>
         <tr></tr>
           <td>git push</td>
           <td>Lükkab käesoleva branchi koodi üles</td>

@@ -11,45 +11,32 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navbar">
-      <ul>
-        <li>
-          <a href="/index.html">Home</a>
-        </li>
+  <!-- get header from /components/header.html -->
+  <div id="header">
+  <script>
+    fetch('/components/header.html')
+      .then(response => response.text())
+      .then(data => document.getElementById('header').outerHTML = data);
+  </script>
+  </div>
 
-        <li class="dropdown">
-          <a href="javascript:void(0)">UT</a>
-          <div class="dropdown-content">
-            <a href="/html/UT/ut.html">UT lehed</a>
-            <a href="/html/UT/ois2.html">ÕIS2</a>
-            <a href="/html/UT/moodle.html">Moodle</a>
-          </div>
-        </li>
-        
-        <li class="dropdown">
-          <a href="javascript:void(0)">Suhtluskanalid</a>
-          <div class="dropdown-content">
-            <a href="/html/Suhtluskanalid/teams.html">Teams</a>
-            <a href="/html/Suhtluskanalid/zoom.html">Zoom</a>
-            <a href="/html/Suhtluskanalid/zulip.html">Zulip</a>
-          </div>
-        </li>
-        
-        <li class="dropdown">
-          <a href="javascript:void(0)">Tööriistad</a>
-          <div class="dropdown-content">
-            <a href="/html/Tööriistad/git-github.html">Git</a>
-            <a href="/html/Tööriistad/IDE.html">IDE</a>
-            <a href="/html/Tööriistad/tehisaru.html">Tehisaru</a>
-          </div>
-        </li>
-      </ul>
 
-    </nav>
-  </header>
-
-  <main></main>
+  <div id="content">
+  <main>
+    <h1>Zoom</h1>
+    <p>
+      Tartu Ülikoolis kasutatakse Zoomi peamiselt videoloengute edastamiseks. 
+      <br>
+      Näiteks kõiki Kõrgem matemaatika I (alused) õppeaine loenguid saab vaadata Zoomi vahendusel, juhul kui sa füüsiliselt ei saa loengus osaleda. Meie omaltpoolt soovitame aga võimalikult palju käia füüsiliselt kohal. Nii omandad infot efektiivsemalt.
+      <br>
+      Zoomi ruumi leidmine võib olenevalt ainest erineda. Näiteks Kõrgem matemaatika I (alused) õppeaine Zoomi ruumi leiab õppeaine Moodle lehelt. Lingile vajutades leiab kogu vajaliku info. 
+      <br>
+      Lisaks, olenevalt ainest, laetakse ka mõned (või kõik) aine loengud ülesse keskkonda Panopto, mis võimaldab loenguid hiljem järgi vaadata.
+    </p>
+    <img src="/media/zoom.png"
+    alt="Zoom vaade">
+    
+  </main>
   <footer></footer>
 
 </body>

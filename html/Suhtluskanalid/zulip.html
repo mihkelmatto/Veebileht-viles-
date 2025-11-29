@@ -11,45 +11,38 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navbar">
-      <ul>
-        <li>
-          <a href="/index.html">Home</a>
-        </li>
+  <!-- get header from /components/header.html -->
+  <div id="header">
+  <script>
+    fetch('/components/header.html')
+      .then(response => response.text())
+      .then(data => document.getElementById('header').outerHTML = data);
+  </script>
+  </div>
 
-        <li class="dropdown">
-          <a href="javascript:void(0)">UT</a>
-          <div class="dropdown-content">
-            <a href="/html/UT/ut.html">UT lehed</a>
-            <a href="/html/UT/ois2.html">ÕIS2</a>
-            <a href="/html/UT/moodle.html">Moodle</a>
-          </div>
-        </li>
-        
-        <li class="dropdown">
-          <a href="javascript:void(0)">Suhtluskanalid</a>
-          <div class="dropdown-content">
-            <a href="/html/Suhtluskanalid/teams.html">Teams</a>
-            <a href="/html/Suhtluskanalid/zoom.html">Zoom</a>
-            <a href="/html/Suhtluskanalid/zulip.html">Zulip</a>
-          </div>
-        </li>
-        
-        <li class="dropdown">
-          <a href="javascript:void(0)">Tööriistad</a>
-          <div class="dropdown-content">
-            <a href="/html/Tööriistad/git-github.html">Git</a>
-            <a href="/html/Tööriistad/IDE.html">IDE</a>
-            <a href="/html/Tööriistad/tehisaru.html">Tehisaru</a>
-          </div>
-        </li>
-      </ul>
 
-    </nav>
-  </header>
+  <div id="content">
+  <main>
+    <h1>Zulip</h1>
+    <p>
+      Zulip on suhtlusplatvorm, mida kasutatakse mõnes õppeaines, et lihtsustada ja kiirendada suhtlus õppejõudude ja õpilaste vahel. Oma olemuselt on sarnane rakendusele Discord, peamine erinevus seisneb selles, et UT kasutatavaid Zulipi kanaleid majutatakse lokaalselt Tartu Ülikooli serverites.
+    </p>
+    <img src="/media/zulip.png"
+    alt="Zulip vaade">
+    
+    <p>
+      Rakenduse vasakul on näha erinevad kanalid, mille liige sa oled. Vajutades kanali ikoonile saad avada kindla kanali. Olenevalt kanalist võid sealt leida erinevat õppeainega seotud infot. Näiteks programmeerimise kanalis on alamkanalid, kus jagatakse infot lisapraktikumide kohta ja saad küsida küsimuse enda praktikumijuhendajalt. 
+    <p>
 
-  <main></main>
+    </p>
+      Paremat kätt näed kõiki kanalis olevaid isikuid, kellele saad soovi korra saata privaatsõnumi. Vajutades kindla teema peale, näiteks 9. nädala lisapraktikum, saad sa sinna saata küsimuse või muu teemaga seotud sõnumi. 
+    <p>
+      
+    </p>
+      Zulip on olemas ka mobiilirakendusena nii iOS kui ka Android telefonides.
+    </p>
+
+  </main>
   <footer></footer>
 
 </body>
