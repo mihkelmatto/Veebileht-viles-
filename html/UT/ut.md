@@ -1,23 +1,3 @@
-# Moodle
-
-## pealeht
-Kalendrist näed oma tööde tähtaegu. Hoides kursorit kuupäeva peal, näitab see vastavate tööde pealkirju. Samuti saab kuupäevale peale vajutada, et näha detailsemat vaadet ülesandepüstituse kohta ning ka linki töö esitamiseks ning ka vastava aine kodulehele navigeerimiseks.
-
-Kalendri all on ka ajajoon, mis on analoogne kalendriga, kuid on antud ka lingid vastavate tööde originaalsete kirjeldusteni.
-
-
-Pealehelt leiad ka lingid iga kursuse lehele, mis ilmuvad sinna südaööl pärast ainesse registreerimist.
-
-
-## kursuse lehed
-Kursuse lehe vasakul küljel on menüü sellel lehel navigeerimiseks. Sealt leiad oma hinnetelehe ning tavaliselt ka aine raames tehtud otseülekannete salvestused.
-Paremal küljel on kalender, mis näitab ainult selle aine tähtaegu.
-
-Ülejäänud kursuse leht on koostatud aine õppejõu poolt ning võib kursuste raames erineda. Tavaliselt on see korraldatud nii, et üleval on mingisugune sissejuhatav osa koos tähtsate linkidega, allosast leiad aga kuupäevade kaupa tundides käsitletud materjale.
-
-
-
-
 # ÕIS2
 Töölaualt leiad tänase ja homse päeva kalendri, mis kajastab selle päeva tunniplaani. Sellest allpool leiad sektsiooni eksamite ja kontrolltööde aegadega, ning järgmiseks ka sektsiooni tähtsamate kontaktidega, näiteks prorammijuht, õppekorralduse spetsialist ja VÕTA spetsialist.
 
