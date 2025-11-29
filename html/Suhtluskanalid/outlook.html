@@ -12,11 +12,35 @@
 
 <body>
   <!-- get header from /components/header.html -->
-  <div id="header"></div>
-  <script src="/components/header_script.js"></script>
+  <div id="header">
+  <script>
+    fetch('/components/header.html')
+      .then(response => response.text())
+      .then(data => document.getElementById('header').outerHTML = data);
+  </script>
+  </div>
 
-  <main></main>
 
+  <div id="content">
+  <main>
+    <h1>Outlook</h1>
+    <p>
+      Kogu ametliku Tartu Ülikooli suhtluse jaoks kasutatakse kooli loodud Outlooki meiliaadressi. 
+      <br>
+      Seda kasutatakse Outlooki, Moodlesse, ÕISi ja paljudesse muudesse õppetööks vajalikesse portaalidesse sisenemiseks.
+      <br>
+      Moodles on võimalik seadistada teavitused, nii et sulle saabuvad Outlooki postkasti meeldetuletused kontrolltööde ja testide kohta. Lisaks saabuvad sinna meilid õppejõududelt ja Outlooki kaudu on kõige mõistlikum oma õppejõududega suhelda.
+    </p>
+    <p>
+      Outlooki logimiseks kasutad sa kuju kasutajatunnus@ut.ee. Kasutajatunnus ei ole sama, mis su tavaline meiliaadress. Näiteks kui meiliaadress on eesnimi.perenimi@ut.ee, siis kasutajatunnus võib olla eesnimiperenimi20. Oma kasutajatunnust saad näha ÕISi vajutades paremal lehe üleval oma nime peale ja sealt navigeerides kontosättete alla. Ära neid asju sassi aja. 
+    </p>
+    <img src="/media/outlook.png"
+    alt="Outlook vaade">
+    
+    <p>
+      Koolimeili kasutades on võimalik saada ka erinevaid allahindlusi, näiteks Apple Musicus maksab tudeng tavapärase hinna asemel vaid 4.99€ kuus.
+    </p>
+  </main>
   <footer></footer>
 
 </body>
