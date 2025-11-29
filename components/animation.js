@@ -45,17 +45,23 @@ function draw() {
 let mouse = {};
 let last_mouse = {};
 
-canvas.addEventListener(
-  "mousemove",
-  function(e) {
-    last_mouse.x = mouse.x;
-    last_mouse.y = mouse.y;
+/* Martin lisas juurde et hiireklõps dokumendil teeb 15 jaanimardikaid juurde */
+document.addEventListener('click', function(e) {
+  const rect = canvas.getBoundingClientRect();
+  const x = e.clientX - rect.left;
+  const y = e.clientY - rect.top;
+  handleClick(x, y);
+});
 
-    mouse.x = e.pageX - this.offsetLeft;
-    mouse.y = e.pageY - this.offsetTop;
-  },
-  false
-);
+function handleClick(x, y) {
+  let radius = 10;
+  for(let i = 0; i < 15; i++) {
+    f.push(new firefly());
+    f[f.length-1].y = y + ((-radius/2) + Math.random()*radius)
+    f[f.length-1].x = x + ((-radius/2) + Math.random()*radius)
+  }
+}
+
 function init(elemid) {
   let canvas = document.getElementById(elemid),
     c = canvas.getContext("2d"),
