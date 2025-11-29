@@ -14,3 +14,14 @@ header, header *{
 footer, footer *{
     background-color: hsl(0, 0%, 20%);
 }
+body #content{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+body h1{
+    color: hsl(234, 100%, 74%);
+    font-size: 30px;
+}
+body img{
+    height: 720px;
+}
