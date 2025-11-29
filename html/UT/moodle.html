@@ -10,8 +10,13 @@
   <link rel="stylesheet" href="/css/dropdown.css">
 </head>
 
+
+
 <body>
-  <!-- get header from /components/header.html -->
+  <!-- tausta import-->
+  <canvas id="canvas"></canvas>
+  <script src="/components/animation.js"></script>
+  <!-- dropdown menüü-->
   <div id="header">
   <script>
     fetch('/components/header.html')
@@ -20,10 +25,12 @@
   </script>
   </div>
 
-
+  
   
   <main>
+    
     <div id="content">
+      
       <h1>Avaleht</h1>
       <p>
         Pealehelt leiad kalendri ja kursuste lehed, kus toimub enamus õppetööd.
@@ -56,7 +63,10 @@
       </p>
       <img src="/media/moodle2.png"
       alt="Moodle õppeaine avaleht">
+      
     </div>
+    
+    
   </main>
 
   <footer></footer>
