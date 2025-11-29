@@ -27,6 +27,9 @@ body h1{
     color: hsl(234, 100%, 74%);
     font-size: 30px;
 }
+body h2 {
+    color: hsl(234deg 100% 68.14%);
+}
 body img{
     height: 720px;
 }
