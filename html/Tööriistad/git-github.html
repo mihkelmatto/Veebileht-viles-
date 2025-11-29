@@ -1,12 +1,3 @@
-<!--
-Mis on git?
-- setup
-- üldine kasutusjuhend
-Mis on github?
-- setup
-- üldine kasutusjuhend
-Github vs gitlab
--->
 <!DOCTYPE html>
 <html lang="et">
 <head>
@@ -24,11 +15,61 @@ Github vs gitlab
   <div id="header"></div>
   <script src="/components/header_script.js"></script>
 
-  <main>
-    <div>
-      <p></p>
+  <div class="main">
+    <div class="git">
+      <h1>Git</h1>
+      <span>Git on versioonihalduse tarkvara, mis võimaldab lähtekoodil hoida struktureeritud viisil, et mitme arendajaga saaks seda lahendada.</span>
+      <div>
+        Mis on git?
+        - setup
+        - üldine kasutusjuhend
+      </div>
     </div>
-  </main>
+    <div class="github">
+      <h1>Github</h1>
+      <span>Github on giti teenusepakkuja, kus saab luua enda giti reposid, kuhu koodi laadida.<span>
+      <div>
+        Mis on github?
+        - setup
+        - üldine kasutusjuhend
+      </div>
+    </div>
+    <div class="quickstart">
+      <h1>Kiirjuhend</h1>
+      <table>
+        <tr>
+          <th>Käsk</th>
+          <th>Mida teeb?</th>
+        </tr>
+        <tr>
+          <td>git help</td>
+          <td>Näitab infot kõigi giti käskude kohta</td>
+        <tr></tr>
+          <td>git init</td>
+          <td>Loob käesolevasse kausta uue giti repo</td>
+        <tr></tr>
+          <td>git clone https://github.com/&lt;></td>
+          <td>Kloonib giti repo käesolevasse kausta</td>
+        <tr></tr>
+          <td>git pull</td>
+          <td>Kontrollib ja tõmbab uued muudatused giti repost alla</td>
+        <tr></tr>
+          <td>git log</td>
+          <td>Näitab giti commitidest logi, kus näeb autorit ja sõnumit</td>
+        <tr></tr>
+          <td>git add file.txt</td>
+          <td>Lisa staging-usse file.txt faili, et seda hiljem saaks kasutada pushimiseks</td>
+        <tr></tr>
+          <td>git commit</td>
+          <td>Loob uue commiti, ning avab tekstiredaktorit commiti sõnumi kirjutamiseks</td>
+        <tr></tr>
+          <td>git push</td>
+          <td>Lükkab käesoleva branchi koodi üles</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
   <footer></footer>
 
 </body>
