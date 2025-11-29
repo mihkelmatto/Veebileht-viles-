@@ -12,13 +12,8 @@
 
 <body>
   <!-- get header from /components/header.html -->
-  <div id="header">
-  <script>
-    fetch('/components/header.html')
-      .then(response => response.text())
-      .then(data => document.getElementById('header').outerHTML = data);
-  </script>
-  </div>
+  <div id="header"></div>
+  <script src="/components/header_script.js"></script>
 
   <main></main>
 
