@@ -15,9 +15,7 @@
     overflow: hidden;
     border-radius: 0 0 10px 10px;
 }
-.dropdown a:hover{
-    color: hsl(234, 100%, 74%);
-}
+
 .dropdown:hover .dropdown-content{
     max-height: 300px;
     transition-delay: 0s;

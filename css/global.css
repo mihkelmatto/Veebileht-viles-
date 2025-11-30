@@ -14,10 +14,10 @@ a:any-link:hover{
 }
 
 header, header *{
-    background-color: hsl(0, 0%, 20%);
+    background-color: hsl(0, 0%, 17%);
 }
 footer, footer *{
-    background-color: hsl(0, 0%, 20%);
+    background-color: hsl(0, 0%, 17%);
 }
 
 
