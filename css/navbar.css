@@ -1,7 +1,9 @@
 .navbar{
     font-size: 25px; 
-    border-bottom: 1px solid hsl(0, 0%, 45%);  
-     
+    border-bottom: 1px solid hsl(0, 0%, 45%);
+}
+.navbar li{
+    display: block;
 }
 
 .navbar ul{
@@ -10,6 +12,8 @@
     list-style-type: none;
     margin: 0px;
     padding: 0px;
+    justify-content: center;
+    align-items: center;
      
 }
 .navbar a{
