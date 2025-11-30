@@ -1,3 +1,8 @@
+/*
+  Allikas: https://codepen.io/Mertl/pen/GexapP
+
+  Osaliselt muudetud Martini poolt
+ */
 let c = init("canvas"),
   w = (canvas.width = window.innerWidth),
   h = (canvas.height = window.innerHeight);
@@ -42,11 +47,8 @@ function draw() {
   }
 }
 
-let mouse = {};
-let last_mouse = {};
-
 /* Martin lisas juurde et hiireklõps dokumendil teeb 15 jaanimardikaid juurde */
-document.addEventListener('click', function(e) {
+document.addEventListener('mousedown', function(e) {
   const rect = canvas.getBoundingClientRect();
   const x = e.clientX - rect.left;
   const y = e.clientY - rect.top;
@@ -61,6 +63,7 @@ function handleClick(x, y) {
     f[f.length-1].x = x + ((-radius/2) + Math.random()*radius)
   }
 }
+/* Lisatud lõigulõpp */
 
 function init(elemid) {
   let canvas = document.getElementById(elemid),
