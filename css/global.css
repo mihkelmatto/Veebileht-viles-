@@ -8,6 +8,7 @@ body{
 a:any-link{
     color: hsl(234, 100%, 74%);
     text-decoration: none;
+    font-size:20px;
 }
 a:any-link:hover{
     color: hsl(27, 100%, 50%)
