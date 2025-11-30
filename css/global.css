@@ -5,9 +5,14 @@ body{
     padding: 0px;
     margin: 0px;
 }
-body a:any-link{
-    color:hsl(0, 0%, 100%);
+a:any-link{
+    color: hsl(234, 100%, 74%);
+    text-decoration: none;
 }
+a:any-link:hover{
+    color: hsl(27, 100%, 50%)
+}
+
 header, header *{
     background-color: hsl(0, 0%, 20%);
 }
@@ -25,10 +30,13 @@ body #content{
 body p{
     font-size:20px
 }
-body h1{
-    color: hsl(234, 100%, 74%);
+body h1, body h1 a:any-link{
+    
     font-size: 30px;
+    
 }
+
+
 body h2 {
     color: hsl(234, 100%, 74%);
 }
