@@ -30,18 +30,16 @@ body #content{
 body p{
     font-size:20px
 }
-body h1, body h1 a:any-link{
-    
-    font-size: 30px;
-    
+body h1, body h1 a{
+    color: hsl(234, 100%, 74%);
+    font-size: 30px; 
 }
-
 
 body h2 {
     color: hsl(234, 100%, 74%);
 }
 body img{
-    width: 100%;
+    width: 75%;
     display: block;
     margin: auto;
     opacity: 0.85;
