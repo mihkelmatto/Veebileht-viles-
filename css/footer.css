@@ -2,13 +2,14 @@
     height: 200px;
 }
 .footer li{
-    ;
+    padding: 10px;
 }
 .footer a{
-    height: 60px;
-    width: 60px;
+    height: 55px;
+    width: 55px;
     border: 1px solid;
     border-radius: 10px;
+    min-width: 0px;
 }
 .footer img{
     height: 50px;
