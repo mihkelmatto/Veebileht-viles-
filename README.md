@@ -1,40 +1,7 @@
 # Veebileht-viles-
 
-TODO:
+ÕIS2² on Tartu Ülikooli informaatika tudengite loodud tööriist aitamaks esimese kursuse tudengitel navigeerida eri programme, veebilehti ja suhtluskanaleid, millega informaatikatudengid oma õppetöös kokku puutuvad.
 
-Visuaalne plaan
-Tööjaotus, ajaline jaotus
+Veebilehe autoriteks on Mihkel Matto, Martin Aavastik ja Ralf Talts.
 
-
-
-
--------------
-Menüüde ülesehitus:
-
-
-
-Home
-  probleemi tutvustus, miks selline veebileht
-
-Infoallikad??
-  Moodle
-  ÕIS2
-  Courses.ut.ee
-  ut.ee
-  cs.ut.ee
-
-Suhtluskanalid
-  zoom
-  teams
-  Zulip
-
-Muu?
-  panopto
-
-
-
-Iga asja kohta selline info:
-  link
-  lühitutvustus
-  kuidas kasutada?
-  miks kasutada?
+Veebilehe pealeht on <a href="index.html">siin!</a>
