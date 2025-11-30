@@ -53,6 +53,9 @@ body img{
     z-index: 0;
     border-radius: 10px;
 }
+.text-center {
+    text-align: center;
+}
 
 canvas{
   filter: blur(1px);
