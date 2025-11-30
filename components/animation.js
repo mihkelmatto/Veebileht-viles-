@@ -59,8 +59,8 @@ function handleClick(x, y) {
   let radius = 10;
   for(let i = 0; i < 15; i++) {
     f.push(new firefly());
-    f[f.length-1].y = y + ((-radius/2) + Math.random()*radius)
-    f[f.length-1].x = x + ((-radius/2) + Math.random()*radius)
+    f[f.length-1].y = y + ((-radius/2) + Math.random()*radius);
+    f[f.length-1].x = x + ((-radius/2) + Math.random()*radius);
   }
 }
 /* Lisatud lõigulõpp */
@@ -95,8 +95,8 @@ function loop() {
 }
 
 window.addEventListener("resize", function() {
-  (w = canvas.width = window.innerWidth),
-  (h = canvas.height = window.innerHeight);
+  w = canvas.width = window.innerWidth,
+  h = canvas.height = window.innerHeight;
   loop();
 });
 
