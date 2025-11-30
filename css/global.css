@@ -6,7 +6,7 @@ body{
     margin: 0px;
 }
 a:any-link{
-    color: hsl(234, 100%, 74%);
+    color: hsl(54, 100%, 74%);
     text-decoration: none;
 }
 a:any-link:hover{
