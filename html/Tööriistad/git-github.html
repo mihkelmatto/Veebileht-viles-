@@ -20,69 +20,65 @@
   <script src="/components/header_script.js"></script>
 
   <div id="content">
-    <div class="git">
-      <h1>Git</h1>
-      <a href="https://git-scm.com/" target="_blank">Giti koduleht</a>
-      <div>Git on versioonihalduse tarkvara, mis võimaldab lähtekoodil hoida struktureeritud viisil, et mitme arendajaga saaks seda lahendada.</div>
-      <div>Install, Seadistus, Kasutus</div>
-      <!-- <div>
-        Mis on git?
-        - setup
-        - üldine kasutusjuhend
-      </div> -->
+    <!-- Git -->
+    <h1>Git</h1>
+    <a href="https://git-scm.com/" target="_blank">Giti koduleht</a>
+    <p>Git on versioonihalduse tarkvara, mis võimaldab lähtekoodil hoida struktureeritud viisil, et mitme arendajaga saaks seda lahendada. Sellisel viisil lähtekoodi hoidmine on väga kasulik eriti suurtes organisatsioonides, kus väga paljud erinevad arendajad töötavad korraga lähtekoodi kallal.</p>
+    <p>Git-i installimiseks tasub järgida kas <a href="https://www.atlassian.com/git/tutorials/install-git">Atlassian-i juhendit</a> või <a href="https://docs.github.com/en/get-started/git-basics/set-up-git">Githubi enda juhendit</a>.</p>
+    <p>Linkidel on infot ka kuidas seadistada Git-i ning kuidas autentimist teha. Kui see on tehtud, siis saad juba giti kasutama hakata.</p>
+    <p>Giti kasutamiseks tasuks lugeda <a href="https://docs.github.com/en/get-started/using-github/github-flow">töövoo juhendit</a>, kuidas tavakasutuses kasutatakse git-i.</p>
+    <hr/>
+
+    <h2>Git-i kiirkursus</h2>
+    <p>Siin on videokursus, mis õpetab Git-i kasutama</p>
+    <div style="text-align: center;">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/vA5TTz6BXhY?si=Wd-dkFCOpWSXvV6X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
-    <div class="github">
-      <h1>Github</h1>
-      <a href="https://github.com/" target="_blank">Github-i koduleht</a>
-      <div>Github on giti teenusepakkuja, kus saab luua enda giti reposid, kuhu koodi laadida.<div>
-      <div>Githubi seadistus</div>
-      <div>Githubis repo uurimine</div>
-      <div>Githubis asjade tegemine vs käsurealt</div>
-      <div>
-        <h2>Git-i kiirkursus</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/vA5TTz6BXhY?si=Wd-dkFCOpWSXvV6X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      </div>
-      <!-- <div>
-        Mis on github?
-        - setup
-        - üldine kasutusjuhend
-      </div> -->
-    </div>
-    <div class="quickstart">
-      <h1>Kiirjuhend</h1>
-      <div>Siin on kõige tavalisemad käsud, mida giti kasutajal tuleks käsureal kasutada. See kindlasti pole lõplik ning neil kõigil on samuti lippe, mida saad määrata</div>
-      <table>
-        <tr>
-          <th>Käsk</th>
-          <th>Mida teeb?</th>
-        </tr>
-        <tr>
-          <td>git help</td>
-          <td>Näitab infot kõigi giti käskude kohta</td>
-        <tr></tr>
-          <td>git init</td>
-          <td>Loob käesolevasse kausta uue giti repo</td>
-        <tr></tr>
-          <td>git clone https://github.com/&lt;></td>
-          <td>Kloonib giti repo käesolevasse kausta</td>
-        <tr></tr>
-          <td>git pull</td>
-          <td>Kontrollib ja tõmbab uued muudatused giti repost alla</td>
-        <tr></tr>
-          <td>git log</td>
-          <td>Näitab giti commitidest logi, kus näeb autorit ja sõnumit</td>
-        <tr></tr>
-          <td>git add file.txt</td>
-          <td>Lisa staging-usse file.txt faili, et seda hiljem saaks kasutada pushimiseks</td>
-        <tr></tr>
-          <td>git commit -m "Commiti sõnum!"</td>
-          <td>Loob uue commiti koos -m antud jutumärkide vahelise sõnumiga</td>
-        <tr></tr>
-          <td>git push</td>
-          <td>Lükkab käesoleva branchi koodi üles</td>
-        </tr>
-      </table>
-    </div>
+    <hr/>
+
+    <!-- Github -->
+    <h1>Github</h1>
+    <a href="https://github.com/" target="_blank">Github-i koduleht</a>
+    <p>Github on giti teenusepakkuja, kus saab luua enda giti reposid, kuhu koodi laadida. Kuigi kasutaja saab ise ka luua giti ilma serverita, on see palju kasulikum, kui sa saad kergelt jagada oma koodi ning kui sa kaotad oma arvuti ära, siis kood on ikka alles.<p>
+    <hr/>
+
+    <!-- Kiirjuhend -->
+    <h1>Kiirjuhend</h1>
+    <p>Siin on kõige tavalisemad käsud, mida giti kasutajal tuleks käsureal kasutada. See kindlasti pole lõplik ning neil kõigil on samuti lippe, mida saad määrata</p>
+    <a href="https://learnxinyminutes.com/git/" target="_blank">Veebileht, kus saab Giti käskude kohta infot</a>
+    <br>
+    <br>
+    <table>
+      <tr>
+        <th>Käsk</th>
+        <th>Mida käsk teeb?</th>
+      </tr>
+      <tr>
+        <td>git help</td>
+        <td>Näitab infot kõigi giti käskude kohta</td>
+      </tr><tr>
+        <td>git init</td>
+        <td>Loob käesolevasse kausta uue giti repo</td>
+      </tr><tr>
+        <td>git clone &lt;https://github.com/></td>
+        <td>Kloonib giti repo käesolevasse kausta</td>
+      </tr><tr>
+        <td>git pull</td>
+        <td>Kontrollib ja tõmbab uued muudatused giti repost alla</td>
+      </tr><tr>
+        <td>git log</td>
+        <td>Näitab giti commitidest logi, kus näeb autorit ja sõnumit</td>
+      </tr><tr>
+        <td>git add file.txt</td>
+        <td>Lisa staging-usse file.txt faili, et seda hiljem saaks kasutada pushimiseks</td>
+      </tr><tr>
+        <td>git commit -m "Commiti sõnum!"</td>
+        <td>Loob uue commiti koos -m antud jutumärkide vahelise sõnumiga</td>
+      </tr><tr>
+        <td>git push</td>
+        <td>Lükkab käesoleva branchi koodi üles</td>
+      </tr>
+    </table>
   </div>
   <footer></footer>
 
